@@ -12,16 +12,11 @@ export default {
     Todo: Todo
   },
   computed: {
-    visibility_data() {
-      // return this.$store.getters.formVisibilityData;
-    }
   },
   mounted() {
-    console.log("here we go");
+    console.log("Executed once this component is loaded.");
   },
   methods: {
-    changeForm(){
-    }
   }
 }
 </script>
