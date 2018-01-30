@@ -1,15 +1,15 @@
 <template>
   <div id='app'>
-    <Todo> </Todo>
+    <ListFromAPI></ListFromAPI>
   </div>
 </template>
 
 <script>
-import Todo from './todo_components/Todo.vue';
+import ListFromAPI from './list_api/ListFromAPI.vue';
 
 export default {
   components: {
-    Todo: Todo
+    ListFromAPI: ListFromAPI
   },
   computed: {
   },

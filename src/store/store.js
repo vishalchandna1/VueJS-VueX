@@ -37,6 +37,9 @@ export const store = new Vuex.Store({
         key: ""
       }
     },
+    api_list_data: {
+      data: null
+    }
   },
   getters,
   mutations,

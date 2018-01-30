@@ -10,4 +10,7 @@ export default {
       }
     }
   },
+  setAPIListData(state, payload) {
+    state.api_list_data.data = payload.data;
+  }
 };
